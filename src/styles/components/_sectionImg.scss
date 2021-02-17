@@ -8,6 +8,9 @@
     -webkit-box-pack: justify;
     justify-content: center;
     max-width: 1472px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
     &.imgRight{
         flex-direction: row-reverse;
     }
@@ -17,7 +20,7 @@
     }
     .section__text{
         flex:1;
-        padding: 0px 26px;
+        padding: 0px 32px;
         font-size: 20px;
     }
 }
