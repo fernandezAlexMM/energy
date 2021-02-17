@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="title__container">
         <div className="content">
           <h1 className="--title">Todo sobre la nueva etiqueta energética de la Unión Europea</h1>
-          <div className="--breadcrumb">Etiqueta energética</div>
+          {/* <div className="--breadcrumb">Etiqueta energética</div> */}
         </div>
       </div>
     </>
