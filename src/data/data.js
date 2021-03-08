@@ -8,17 +8,17 @@ const data = {
   s2:{
     img:"https://cms-images.mmst.eu/2rj3gcd43pmw/X1s76hIAACQAcE2X/7b1ca0f17647631b0b498811510433c5/Prismic_LP_Visual_Energielabels_1257x703_Teaser_1.jpg?q=80",
     title: "",
-    content: "Probablemente estés familiarizado con las coloridas etiquetas energéticas que muestra tu última compra de electrodomésticos en Media Markt. Durante más de veinte años, estas etiquetas muestran claramente los datos más importantes de tu electrodoméstico, y con ellas, el desarrollo de la tecnología y de aparatos cada vez más eficientes.<br/>Dado que los dispositivos se han vuelto cada vez más eficientes energéticamente y cumplen con un estándar mucho más alto que el que cubría la Clase A, el concepto actual se ha vuelto menos transparente para todas las partes interesadas. Las diferencias entre A + y A +++ son a veces muy pequeñas, con lo que la UE ha decidido volver a la escala anterior con una nueva etiqueta.  Las que conocemos ahora como A +++, A ++, A +, A, B, C y D, pasarán a ser a partir de marzo de 2021 nuevamente de A a G. Donde A significa dispositivos muy eficientes, que todavía están por salir; los dispositivos B y C identifican los dispositivos más eficientes.",
+    content: "Probablemente estés familiarizado con las coloridas etiquetas energéticas que muestra tu última compra de electrodomésticos en Media Markt. Durante más de veinte años, estas etiquetas muestran claramente los datos más importantes de tu electrodoméstico, y con ellas, el desarrollo de la tecnología y de aparatos cada vez más eficientes.<br/><br/> Dado que los dispositivos se han vuelto cada vez más eficientes energéticamente y cumplen con un estándar mucho más alto que el que cubría la Clase A, el concepto actual se ha vuelto menos transparente para todas las partes interesadas. Las diferencias entre A + y A +++ son a veces muy pequeñas, con lo que la UE ha decidido volver a la escala anterior con una nueva etiqueta.<br/><br/> Las que conocemos ahora como A +++, A ++, A +, A, B, C y D, pasarán a ser a partir de marzo de 2021 nuevamente de A a G. Donde A significa dispositivos muy eficientes, que todavía están por salir; los dispositivos B y C identifican los dispositivos más eficientes.",
     imgPosition: true
   },
   s3:{
     img:"https://cms-images.mmst.eu/2rj3gcd43pmw/X1s76hIAACEAcE2Z/11a59c78ed7f679a757c4aa23d1d5448/Prismic_LP_Visual_Energielabels_1257x703_Teaser_2.jpg?q=80",
     title: "¿Qué pasará cuando cambie la actual etiqueta en marzo de 2021?	",
-    content: "Solo encontrarás las nuevas etiquetas en tu tienda Media Markt y en la web mediamarkt.es a partir del 1 de marzo de 2021. Además, existe una base de datos de información de la UE denominada EPREL, en la que podrá acceder a las nuevas clasificaciones e información adicional no promocional para la mayoría de los dispositivos actualmente disponibles, prevista para el 1 de marzo de 2021.",
+    content: "Solo encontrarás las nuevas etiquetas en tu tienda Media Markt y en la web mediamarkt.es a partir del 1 de marzo de 2021. Además, existe una base de datos de información de la UE denominada EPREL, en la que podrá acceder a las nuevas clasificaciones e información adicional no promocional para la mayoría de los dispositivos actualmente disponibles, prevista para el 1 de marzo de 2021. <br><br> Los fabricantes ya pueden incluir la nueva etiqueta energética con el producto, mientras que los minoristas no pueden mostrar la nueva etiqueta energética antes del 1 de marzo de 2021. Como cliente, por lo tanto, puedes encontrar tanto la etiqueta energética antigua como la nueva durante este período de transición en el electrodoméstico que adquieras.",
     imgPosition: false
   },
   s4:{
-    img:"https://specials.mediamarkt.es/assets-react/eficiencia-energetica/descripci%C3%B3n-etiqueta.png",
+    img:"https://specials.mediamarkt.es/assets-react/eficiencia-energetica/descripcion-etiqueta.jpg",
     title: "Así es la etiqueta energética actual (hasta marzo de 2021)",
     content: 'En las etiquetas actuales, además de la clase de eficiencia energética de A +++ a D, según la clase de dispositivo, encuentras información adicional sobre el consumo de energía, consumo de agua, desarrollo de ruido o el volumen de capacidad en la etiqueta. La clasificación se realizó según el grupo de dispositivos de acuerdo con un procedimiento de prueba hasta ahora y que varía  a partir de ahora, marzo del 2021, por lo que es posible que tu frigorífico A +++ actual solo obtenga B, C o incluso D después del nuevo procedimiento de prueba. Esto no significa que tu máquina o aparato pase a ser ineficiente energéticamente sino que varía la forma de evaluarlo. ',
     imgPosition: true
@@ -38,7 +38,7 @@ const data = {
   s7:{
     img:"https://specials.mediamarkt.es/assets-react/eficiencia-energetica/lavadora-secadora.png",
     title: "Etiqueta energética para lavadoras- secadoras",
-    content: 'Con esta etiqueta encontrarás dos partes, una al lado de la otra. Dado que muchos consumidores a menudo solo usan una lavadora-secadora para lavar y no para el programa completo de lavado y secado, la información se divide en dos partes: a la izquierda para el programa combinado que incluye el secado, a la derecha solo para el proceso de lavado. Aquí también se aplica el nuevo procedimiento de prueba del programa “Eco 40–60” con tejidos de algodón, lino o fibras mixtas con suciedad normal, que se pueden lavar a 40 o 60 grados. El consumo de energía también se muestra en kilovatios hora para 100 ciclos de lavado y se muestra la nueva clase de emisión sonora.Se espera que la etiqueta energética de las secadoras se cambie el 1 de septiembre de 2021.',
+    content: 'Con esta etiqueta encontrarás dos partes, una al lado de la otra. Dado que muchos consumidores a menudo solo usan una lavadora-secadora para lavar y no para el programa completo de lavado y secado, la información se divide en dos partes: a la izquierda para el programa combinado que incluye el secado, a la derecha solo para el proceso de lavado. Aquí también se aplica el nuevo procedimiento de prueba del programa “Eco 40–60” con tejidos de algodón, lino o fibras mixtas con suciedad normal, que se pueden lavar a 40 o 60 grados. El consumo de energía también se muestra en kilovatios hora para 100 ciclos de lavado y se muestra la nueva clase de emisión sonora. <br><br> <strong>Se espera que la etiqueta energética de las secadoras se cambie el 1 de septiembre de 2021.</strong>',
     imgPosition: false
   },
   s8:{
@@ -67,7 +67,7 @@ const data = {
   },
   cardL1:{
     img: "https://cms-images.mmst.eu/2rj3gcd43pmw/X19gexIAACMAgpKe/5b5be2c62d20d4dbe5e192e00689db39/Prismic_LP_Visual_Energielabels_3360x887_mood_Waschmaschine.jpg?q=80",
-    href: "https://www.mediamarkt.es/es/category/_lavadoras-701243.html",
+    href: "https://www.mediamarkt.es/es/category/_lavadoras-carga-frontal-702191.html",
     title: "Lavadoras"
   },
   cardL2:{
@@ -92,7 +92,7 @@ const data = {
   },
   cardL6:{
     img: "https://cms-images.mmst.eu/2rj3gcd43pmw/X19gehIAACEAgpKc/0b97714a05b560acdb25ea43b4fb69de/Prismic_LP_Visual_Energielabels_3360x887_mood_Leuchtmittel.jpg?q=80",
-    href: "https://www.mediamarkt.es/es/category/_iluminaci%C3%B3n-702251.html?page=4",
+    href: "https://www.mediamarkt.es/es/category/_iluminaci%C3%B3n-702251.html",
     title: "Iluminantes y fuentes de luz"
   }                 
 } 

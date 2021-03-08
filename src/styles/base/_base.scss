@@ -14,10 +14,22 @@
     font-family: "MMTextProWebTT-Regular", Helvetica, Arial, sans-serif;
   }
   h1, h2, h3, h4, h5 {
-    font-family: "MMHeadlineWebTT-Regular", "MMHeadline-regular", Helvetica, Arial, sans-serif;
+    font-family: "MMHeadlineWebTT-Regular", "MMHeadline-regular", Helvetica, Arial, sans-serif !important;
   }
   a{
-    text-decoration: none;
+    text-decoration: none !important;
+  }
+  .titleCenter{
+    text-align: center;
+    margin: auto;
+    font-size: 44px;
+    margin-bottom: 30px;
+  }
+  .imgCenter{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
   }
 
   
