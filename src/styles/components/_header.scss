@@ -1,0 +1,116 @@
+.header__container {
+  height: 408px;
+  width: 100%;
+  background-image: url("https://cms-images.mmst.eu/2rj3gcd43pmw/X5_aDhQAACIAclU0_mobile/97e0dcbe8260d9d092db7bb97571410c/X5_aDhQAACIAclU0_mobile.jpg?q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.title__container {
+  font-size: 0.9em;
+  margin: -70px auto 6% auto;
+  border-radius: 6px;
+  z-index: 1;
+  padding: 0 0 0 0;
+  align-items: center;
+  display: flex;
+  padding-right: 8%;
+  max-width: 1472px;
+
+  .content {
+    max-width: 1472px;
+    background-color: #fff;
+    box-sizing: border-box;
+    color: black;
+    padding: 24px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    border-radius: 4px;
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.07);
+    &::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      z-index: -1;
+      -webkit-transform: skew(-19.7deg);
+      -ms-transform: skew(-19.7deg);
+      transform: skew(-19.7deg);
+      height: 100%;
+      right: -50px;
+      border-top-right-radius: 6.4px;
+      border-bottom-right-radius: 32px;
+      box-shadow: 8px 0 8px 0 rgba(0, 0, 0, 0.07);
+      background: #fff;
+
+    }
+    h1  {
+      color: #000000;
+      line-height: 40px;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+    }
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  .header__container {
+    height: 272px;
+  }
+  .title__container{
+    // height: 272px;
+    margin: -150px 0% 5% 0%;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 510px) {
+  .title__container{
+    height: 304px;
+    margin: -150px 0% -10% 0%;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+  .header__container{
+    height: 304px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .title__container .content::after{
+  background-image: url("https://cms-images.mmst.eu/2rj3gcd43pmw/X5_aDhQAACIAclU0_tablet/2efee456e2c16d4ed046288bcc606c5d/X5_aDhQAACIAclU0_tablet.jpg?q=80");
+  display: none;
+  } 
+}
+@media only screen and (min-width: 670px) {
+  .header__container {
+    background-image: url("https://cms-images.mmst.eu/2rj3gcd43pmw/X5_aDhQAACIAclU0_tablet/2efee456e2c16d4ed046288bcc606c5d/X5_aDhQAACIAclU0_tablet.jpg?q=80");
+  } 
+}
+@media only screen and (min-width: 511px) and (max-width: 768px) {
+  .title__container {
+    height: 304px;
+    margin: -150px 8% -5% 0%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 793px) {
+  .title__container {
+    margin: -70px 8% -6% 0%;
+  }
+}
+@media only screen and (min-width: 794px) and (max-width: 1007px) {
+  .title__container {
+    margin: -70px 8% 6% 0%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .--breadcrumb {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 1008px) {
+  .title__container {
+    font-size: 24px;
+  }
+}
+

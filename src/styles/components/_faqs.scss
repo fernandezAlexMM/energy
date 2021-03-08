@@ -1,0 +1,58 @@
+.wrapper__faqs {
+  width: 100%;
+  padding: 40px 5%;
+  left: 0px;
+  right: 0px;
+  background: center center / cover no-repeat rgb(244, 244, 244);
+  
+  h1{
+    font-size: 32px;
+    padding: 0px;
+  }
+  .faqs--title {
+    padding: 0px;
+  }
+}
+.main__container{
+  max-width: 1472px;
+  margin: auto;
+}
+
+.container__faqs {
+  padding: 40px 0;
+  margin: 0px auto;
+  border-top: 1px solid rgb(207, 203, 202);
+  .accordion-title {
+    cursor: pointer;
+    .title-content {
+      display: flex;
+      align-items: center;
+      .arrow__dropdown {
+        margin-right: 5px;
+        &.open {
+          transform: rotate(180deg);
+          transition: transform 0.5s linear;
+        }
+        &.close {
+          transform: rotate(360deg);
+          transition: transform 0.5s linear;
+        }
+      }
+    }
+
+    .accordion-button {
+      display: block;
+      width: 100%;
+    }
+  }
+  .accordion-item.collapsed {
+    display: none !important;
+  }
+  a,
+  a:visited,
+  a:active,
+  a:focus,
+  a:hover {
+    color: $mediamarkt;
+  }
+}
